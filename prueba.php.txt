@@ -1,0 +1,104 @@
+﻿git clone https://github.com/aftrianap/analisis-desarrollo.git
+
+
+martha@EMERSON MINGW64 ~/Desktop/jp (master)
+$ git config --global user.name "juankdonato"
+
+martha@EMERSON MINGW64 ~/Desktop/jp (master)
+$ git config --global user.email "juank_d_1993@hotmail.com"
+
+martha@EMERSON MINGW64 ~/Desktop/jp (master)
+$ README.md
+bash: README.md: command not found
+
+martha@EMERSON MINGW64 ~/Desktop/jp (master)
+$ CLEAR
+
+martha@EMERSON MINGW64 ~/Desktop/jp (master)
+$ git clone https://github.com/aftrianap/analisis-desarrollo.git
+Cloning into 'analisis-desarrollo'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+
+martha@EMERSON MINGW64 ~/Desktop/jp (master)
+$ cd analisis-desarrollo/
+
+martha@EMERSON MINGW64 ~/Desktop/jp/analisis-desarrollo (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+martha@EMERSON MINGW64 ~/Desktop/jp/analisis-desarrollo (master)
+$ git add README.md
+
+
+martha@EMERSON MINGW64 ~/Desktop/jp/analisis-desarrollo (master)
+$
+
+martha@EMERSON MINGW64 ~/Desktop/jp/analisis-desarrollo (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+martha@EMERSON MINGW64 ~/Desktop/jp/analisis-desarrollo (master)
+$ git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit hook
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+
+
+martha@EMERSON MINGW64 ~/Desktop/jp/analisis-desarrollo (master)
+$ git log --oneline
+2fe0a31 Initial commit
+
+martha@EMERSON MINGW64 ~/Desktop/jp/analisis-desarrollo (master)
+$ gif push origin master
+bash: gif: command not found
+
+martha@EMERSON MINGW64 ~/Desktop/jp/analisis-desarrollo (master)
+$
